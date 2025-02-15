@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Gabarito", serif;
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar__s1__title{
+  color:#A435F0;
+}
+.navbar__s2{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.navbar__s2 input:focus{
+    outline: none;
+}
+.navbar__s2 input{
+    border:none;
+   width: 100%;
+   
+   font-size: 16px;
+
+}
+.navbar__s3{
+    display:flex;
+    gap: 15px;
+    /* padding: 10px; */
+    align-items: center;
+}
+
+.categories{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    padding: 10px;
+    /* background-color: #A435F0; */
+}
+.categories P{
+    background-color: #A435F0;
+    padding: 10PX;
+    border-radius: 30PX;
+    color: white;
+}
+.sale-image img{
+    width: 100%;
+}
+.recomend{
+    padding: 20px;
+    margin-top: 10px;
+}
+.recomend__container{
+    display: flex;
+    justify-content: space-between;
+   margin: 5px;
+    flex-wrap: wrap;
+ 
+
+}
+.course-card{
+    width: 300px;
+}
+.course-card img{
+    width: 100%;
+    height: 50%;
+    justify-content: space-between;
+}
+.topics{
+    padding: 10px;
+}
+.topics__container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10PX;
+    flex-wrap: wrap;
+    align-items: center;
+    
+
+}
+.topics__container p{
+    padding: 10px;
+    border: solid gray 2px;
+    flex-grow: 1;
+    flex-basis: 25%; 
+    margin-top: 10px;    
+}
+.popular{
+    padding: 10px;
+}
+.popular__container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+
+}
+.footer{
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.footer__1{
+    display: flex;
+    
+}
+.footer__1 p{
+  
+    margin: 20px;
+}
+.footer__2{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
