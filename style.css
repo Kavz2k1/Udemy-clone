@@ -104,8 +104,8 @@ body{
 }
 .popular__container{
     display: flex;
-    /*justify-content: space-between;*/
-   /* flex-wrap: wrap;*/
+    justify-content: space-between;
+   flex-wrap: wrap;
     margin: 10px;
 
 }
